@@ -1,0 +1,65 @@
+body {
+    background: #121212;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.container {
+    background: #1e1e1e;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 8px;
+    border-top: 5px solid #e50914;
+}
+
+h1 {
+    text-align: center;
+    color: #e50914;
+    font-size: 22px;
+}
+
+.form-control, .from-control {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    background: #2a2a2a;
+    border: 1px solid #333;
+    border-radius: 4px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #f5c518;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-cadastro {
+    background: #e50914;
+    color: #fff;
+}
+
+.btn-limpar {
+    background: transparent;
+    color: #aaa;
+    border: 1px solid #333;
+}
